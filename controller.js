@@ -16,8 +16,8 @@ function addItem() {
     checkbox2.push(checkbox);
 
 
-    li.appendChild(checkbox);
-    li.appendChild(document.createTextNode(texto.value));
+    
+    li.appendChild(document.createTextNode("Tarea: "+texto.value));
     ul.appendChild(li);
     
   }

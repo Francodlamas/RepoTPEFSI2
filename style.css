@@ -1,9 +1,13 @@
+body{
+  background-color: blue;
+}
+
 #pruebaCheck{
-    color:red;
+    color:yellow;
 }
 
 ul li.checked {
-    background: red;
+    background:goldenrod;
     color: #fff;
     text-decoration: line-through;
   }
@@ -21,3 +25,7 @@ ul li.checked {
     height: 15px;
     width: 7px;
   }
+.logo{
+  width: 200px;
+  height: 200px;
+}
